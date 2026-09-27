@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {"id":"abc123","title":"Fixture: companion memory","author":"sample_user","subreddit":"LocalLLaMA","permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/","created_utc":1780000000,"score":21,"num_comments":5,"link_flair_text":"Discussion","selftext":"A fictional example about memory.","is_self":true,"edited":false},
+    {"id":"def456","title":"Fixture: external guide","author":"other_user","subreddit":"LocalLLaMA","permalink":"/r/LocalLLaMA/comments/def456/fixture_external_guide/","created_utc":1780001000,"score":4,"num_comments":0,"link_flair_text":null,"selftext":"","is_self":false,"url":"https://example.invalid/guide","edited":false},
+    {"id":"ghi789","title":"Fixture: deleted","author":"[deleted]","subreddit":"Roleplay","permalink":"/r/Roleplay/comments/ghi789/fixture_deleted/","created_utc":1780002000,"score":null,"num_comments":0,"selftext":"[deleted]","is_self":true},
+    {"id":"jkl012","title":"Fixture: removed","author":"sample_mod","subreddit":"Roleplay","permalink":"/r/Roleplay/comments/jkl012/fixture_removed/","created_utc":1780003000,"score":1,"num_comments":0,"selftext":"[removed]","removed_by_category":"moderator","is_self":true}
+  ],
+  "comments": {
+    "abc123": [
+      {"kind":"t1","data":{"id":"c1","parent_id":"t3_abc123","link_id":"t3_abc123","author":"alice","body":"Root A","score":5,"created_utc":1780000100,"permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/c1/","replies":{"data":{"children":[
+        {"kind":"t1","data":{"id":"c2","parent_id":"t1_c1","link_id":"t3_abc123","author":"bob","body":"Reply B","score":2,"created_utc":1780000200,"permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/c2/","replies":{"data":{"children":[
+          {"kind":"t1","data":{"id":"c3","parent_id":"t1_c2","link_id":"t3_abc123","author":"carol","body":"Reply C","score":1,"created_utc":1780000300,"permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/c3/","replies":""}}
+        ]}}}},
+        {"kind":"t1","data":{"id":"c4","parent_id":"t1_c1","link_id":"t3_abc123","author":"dave","body":"Reply D","score":3,"created_utc":1780000400,"permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/c4/","replies":""}}
+      ]}}}},
+      {"kind":"t1","data":{"id":"c5","parent_id":"t3_abc123","link_id":"t3_abc123","author":"erin","body":"Root E","score":6,"created_utc":1780000500,"permalink":"/r/LocalLLaMA/comments/abc123/fixture_companion_memory/c5/","replies":""}},
+      {"kind":"more","data":{"parent_id":"t3_abc123","children":["c6"],"count":1}}
+    ],
+    "def456": [], "ghi789": [], "jkl012": []
+  },
+  "subreddits": {
+    "LocalLLaMA": {"title":"Fixture community","description":"Static test data only","rules":["Be civil"],"subscribers":123}
+  },
+  "profiles": {
+    "sample_user": {"created_utc":1700000000,"total_karma":42,"public_description":"Fixture biography"}
+  }
+}
